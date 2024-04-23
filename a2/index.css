@@ -1,67 +1,64 @@
-.row {
-    position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
-    clear: both;
-}
 
+.row {
+   position: relative;
+   margin-left: 10%;
+   margin-right: 10%;
+   clear: both;
+}
 /* Style for white cells */
 .white {
-    border: 1px solid black;
-    width: 10%;
-    height: 45px;
-    background-color: white;
-    float: left;
+   border: 1px solid black;
+   width: 10%;
+   height: 45px;
+   background-color: white;
+   float: left;
 }
-
 /* Style for black cells */
 .black {
-    border: 1px solid black;
-    width: 10%;
-    height: 45px;
-    background-color: #787878;
-    float: left;
+   border: 1px solid black;
+   width: 10%;
+   height: 45px;
+   background-color: #787878;
+   float: left;
 }
-
 /* Style for footer */
 #footer {
-    padding: 10px;
-    text-align: center;
-    margin: -10px;
-    background-color: lightblue;
+   border: 1px solid black;
+   padding: 10px;
+   margin: 10px;
 }
-
 /* Style for container */
 #container {
-    margin-top: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 15%;
+   margin-top: 20%;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-bottom: 5%;
 }
-
 /* Style for title */
 #title {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    padding: 10px;
-    margin: 0px;
-    width: 100%;
-    background-color: lightblue;
-    text-align: center;
-    z-index: 10;
-    font-family: 'JustLettersMedium';
-    font-weight: normal;
-    font-style: normal;
-    font-size:36px;
-    }
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   padding: 10px;
+   margin: 0px;
+   width: 100%;
+   background-color: lightyellow;
+   text-align: center;
+   z-index: 10;
+   font-family: 'JustLettersMedium';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 36px;
+}
+#clear {
+   clear: both;
+}
 /* Style for images */
 img {
-    margin-left: 5px;
-    margin-top: 10px;
+   margin-left: 5px;
+   margin-top: 10px;
 }
-
 /* Background image for the page */
 body {
-    background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+   background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
 }
