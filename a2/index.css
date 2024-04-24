@@ -46,19 +46,13 @@
    background-color: lightblue;
    text-align: center;
    z-index: 10;
-   font-family: 'JustLettersMedium';
+   font-family: 'UniqueRegular';
    font-weight: normal;
    font-style: normal;
    font-size: 36px;
 }
 #clear {
    clear: both;
-}
-/*font*/
-p {
-   font-family: 'UniqueRegular';
-   font-weight: normal;
-   font-style: normal;
 }
 /* Style for images */
 img {
