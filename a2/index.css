@@ -54,6 +54,11 @@
 #clear {
    clear: both;
 }
+p {
+   font-family: 'UniqueRegular';
+   font-weight: normal;
+   font-style: normal;
+}
 /* Style for images */
 img {
    margin-left: 5px;
