@@ -5,12 +5,21 @@ h1, h2, p {
 	color: #665544;
 }
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	color: #665544;
-	padding: 22px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #665544;
+    padding: 0 15% 0 15%;
+}
+h1 {
+    text-align: center; 
+    color: blue;
+    font-family: 'DancingScriptRegular';
+    font-size: 400%; 
 }
 p {
    font-family: 'DancingScriptRegular';
    font-weight: normal;
    font-style: normal;
+}
+i {
+    color: darkgreen;
 }
