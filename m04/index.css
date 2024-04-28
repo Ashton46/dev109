@@ -10,10 +10,10 @@
        background-position: center;
 }
   .column1, .column2, .column3 {
-            width: 30%; /* Adjusted width for equal sizing */
+            width: 30%; 
             float: left;
-            margin: 1%; /* Consistent margin for all columns */
-            box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+            margin: 1%; 
+            box-sizing: border-box;
         }
 #content {
        overflow: auto;}
