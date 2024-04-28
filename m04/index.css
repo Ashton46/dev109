@@ -24,8 +24,12 @@
 #feature {
        height: 10em;
        margin-bottom: 1em;
-       background-color: #99ff99;
-       background-image: url('feature.jpg');}
+       background-color: #8CC63E;;
+       background-image: url('feature.jpg');
+       background-size:contain;
+       background-position: right;
+       background-repeat:no-repeat;
+}
 .article {
        height: 10em;
        margin-bottom: 1em;
