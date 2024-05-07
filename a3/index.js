@@ -57,3 +57,40 @@ rLine +="</p>";
 
 document.getElementById("downRight").innerHTML = rLine;
 }
+function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
+    var rLine ="";
+    for (i=0; i < pHeight; i++){
+        rLine +="<p>";
+        // Create each line on the Rhombus
+        for(j=0; j < pHeight - i; j++){
+            // Add spaces before the symbol
+            rLine +="<span style='color:" + pColorEven + ";'> </span>";
+        }
+        for(j=0; j <= i; j++){
+            // Is the position even or odd so we change the color
+            rLine += (j % 2) ? "<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>" :
+                               "<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
+        }
+        rLine +="</p>";
+    }
+    document.getElementById("upLeft").innerHTML = rLine;
+}
+
+function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
+    var rLine ="";
+    for (i=pHeight; i > 0; i--){
+        rLine +="<p>";
+        // Create each line on the Rhombus
+        for(j=0; j < pHeight - i; j++){
+            // Add spaces after the symbol
+            rLine +="<span style='color:" + pColorEven + ";'> </span>";
+        }
+        for(j=0; j < i; j++){
+            // Is the position even or odd so we change the color
+            rLine += (j % 2) ? "<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>" :
+                               "<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
+        }
+        rLine +="</p>";
+    }
+    document.getElementById("downLeft").innerHTML = rLine;
+}
