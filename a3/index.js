@@ -45,4 +45,4 @@ function down(pHeight, pColorEven, pColorOdd, pSymbol) {
     }
     document.getElementById("diamond").innerHTML += dLine;
 }
-}
+
