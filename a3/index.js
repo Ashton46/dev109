@@ -3,8 +3,6 @@
 // var colorEven = "orange";
 // var colorOdd = "black";
 // var symbol ="*";
-
-function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
 function createDiamond(pHeight, pColorEven, pColorOdd, pSymbol) {
     up(pHeight, pColorEven, pColorOdd, pSymbol);
     down(pHeight, pColorEven, pColorOdd, pSymbol);
