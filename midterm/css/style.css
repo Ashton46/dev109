@@ -118,3 +118,9 @@ border-top: 1px solid #1f1f1f;
 .left { float: left; }
 .right { float: right; }
 .clear { clear: both; }
+
+#validation-summary {
+    background: #fff; /* Set the background to white */
+    padding: 20px; /* Add some padding for visual spacing */
+    margin: 10px 0; /* Optional: Add margin for spacing from other elements */
+}
