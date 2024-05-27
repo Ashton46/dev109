@@ -9,7 +9,8 @@ clearButton.addEventListener("click", function(event) {
 });
 
 addEventListener("click", function(event) {
-  if (event.target.id !== "clearButton" && event.target.tagName !== "INPUT") {
+  // Prevent dots from being drawn on the control panel
+  if (event.target.id !== "clearButton" && event.target.tagName !== "INPUT" && event.target.id !== "controls") {
     var colorInput = document.getElementById("color");
     var sizeInput = document.getElementById("size");
 
@@ -23,4 +24,5 @@ addEventListener("click", function(event) {
     document.body.appendChild(dot);
   }
 });
+
 
