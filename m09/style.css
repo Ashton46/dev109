@@ -1,21 +1,13 @@
 body {
-  height: 100vh; /* Full viewport height */
-  margin: 0;
+  height: 200px;
   background: beige;
   position: relative;
+  margin: 0;
   overflow: hidden;
-}
-#controls {
-  position: fixed; /* Keep controls at the top */
-  top: 10px;
-  left: 10px;
-  z-index: 10;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 10px;
-  border-radius: 5px;
 }
 .dot {
   border-radius: 50%; /* makes the dot round */
   position: absolute;
 }
+
 
