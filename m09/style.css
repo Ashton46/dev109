@@ -1,1 +1,12 @@
+body {
+  height: 200px;
+  background: beige;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+.dot {
+  border-radius: 50%; /* makes the dot round */
+  position: absolute;
+}
 
