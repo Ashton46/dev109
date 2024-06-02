@@ -1,5 +1,5 @@
 var myImages = [
-    <img src="resume.jpg" alt="Resume">,
+    img src="resume.jpg" alt="Resume",
     "http://cdn3.theeventchronicle.com/wp-content/uploads/2014/09/dolphin-intelligence.jpg",
     "http://www.liveanimalslist.com/mammals/images/dolphin-in-water.jpg",
     "http://i1151.photobucket.com/albums/o632/bowietvc15/Bowietvc15-2/DolphinsWallpaper2.jpg",
