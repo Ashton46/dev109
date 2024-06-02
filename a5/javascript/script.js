@@ -6,7 +6,7 @@ var myImages = [
     "http://i1151.photobucket.com/albums/o632/bowietvc15/funny%20gifs/animal-art-cute-dolphin-nature-Favimcom-311780.jpg"
 ];
 
-var captionImages = ["Laugh", "Love", "Lunch", "Happiness", "Family"];
+var captionImages = ["Resume", "Contact Us", "Rhombus", "Form Validation", "Slideshow"];
 var index = 0;
 
 function updateImage() {
