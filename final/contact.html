@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact</title>
 <link rel="stylesheet" href="css/style.css">
+<script src="js/validate.js"></script>
 </head>
 <body style="background: url('images/background.jpg') no-repeat center center fixed; background-size: cover;">
 
@@ -30,7 +31,7 @@
     <div id="content">
         <div id="contact-form">
             <h2>Contact Us</h2>
-            <form action="thankyou.html" method="get" name="myContact">
+            <form action="thankyou.html" method="get" name="myContact" onsubmit="return validateForm()">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br>
                 
@@ -50,7 +51,7 @@
             Copyright &copy; Year by <a href="https://ashton46.github.io/dev109/midterm/contact.html">Midterm</a>
         </div>
         <div class="right">
-            Design by <a #">Ashton Breer</a>
+            Design by <a href="#">Ashton Breer</a>
         </div>
         <div class="clear"></div>
     </div>
