@@ -1,1 +1,110 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background: url('images/background.jpg') no-repeat center center fixed; /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    color: #3f3f3f;
+    font-size: 16px;
+    line-height: 24px;
+}
 
+        a { 
+            color: #000088; 
+        }
+        a:hover { 
+            color: #880000; 
+        }
+
+        #wrap { 
+            margin: 0 auto;
+            width: 940px;
+            background: #fff;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        #header {
+            background: #f9f9f9;
+            padding: 20px 0;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        #header h1 {
+            margin: 0;
+            padding-left: 30px;
+            font-weight: bold;
+            color: #3f3f3f;
+            font-size: 38px;
+            line-height: 65px;
+            letter-spacing: -1px;
+        }
+
+        #topmenu {
+            background: #f1f1f1;
+            padding: 10px 20px;
+            border-bottom: 1px solid #e1e1e1;
+            border-top: 1px solid #e1e1e1;
+            margin-top: 20px;
+        }
+
+        #topmenu ul { 
+            margin: 0; 
+            padding: 0; 
+            list-style-type: none;
+        }
+
+        #topmenu li { 
+            display: inline; 
+            padding: 0 20px 0 0;
+        }
+
+        #topmenu li a { 
+            text-decoration: none; 
+        }
+
+        #validation {
+            margin-top: 20px;
+            overflow: hidden;
+        }
+
+        #validation .left,
+        #validation .right {
+            float: left;
+            width: 45%;
+            margin-right: 5%;
+        }
+
+        #footer { 
+            background: #3f3f3f;
+            color: #fff;
+            padding: 20px;
+            border-top: 1px solid #1f1f1f;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin-top: 20px;
+        }
+
+        #footer a { 
+            color: #fff; 
+            text-decoration: none; 
+            border-bottom: 1px dotted #fff; 
+        }
+
+        #footer a:hover { 
+            border-bottom: 1px dotted #ccc; 
+        }
+
+        .left { 
+            float: left; 
+        }
+
+        .right { 
+            float: right; 
+        }
+
+        .clear { 
+            clear: both; 
+        }
