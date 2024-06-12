@@ -1,9 +1,8 @@
 
-const audio = new Audio('audio/audio.mp3');
+const audio = new Audio('audio/mixkit-tech-house-vibes-130.mp3');
 
 
 const audioBtn = document.getElementById('audio-btn');
-
 
 function toggleAudio() {
     if (audio.paused) {
@@ -15,6 +14,6 @@ function toggleAudio() {
     }
 }
 
-
 audioBtn.addEventListener('click', toggleAudio);
+
 
