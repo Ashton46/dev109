@@ -17,10 +17,5 @@ function validateForm() {
         return false;
     }
 
-    if (message == "") {
-        alert("Message must be filled out");
-        return false;
-    }
-
     return true;
 }
