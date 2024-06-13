@@ -159,4 +159,8 @@ a:hover, a:focus {
     background-color: #ddd; /* Light grey background on hover and focus */
     color: #000; /* Change text color for contrast */
 }
+button:focus {
+    outline: 2px solid #f00; /* Red outline for visibility */
+    outline-offset: 4px; /* Space between the outline and the button */
+}
 
