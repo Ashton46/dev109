@@ -133,4 +133,21 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+#image-container img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    animation: fadeIn 2s ease-in-out;
+}
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
