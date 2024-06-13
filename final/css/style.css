@@ -9,13 +9,6 @@ body {
     line-height: 24px;
 }
 
-        a { 
-            color: #000088; 
-        }
-        a:hover { 
-            color: #880000; 
-        }
-
         #wrap { 
             margin: 0 auto;
             width: 940px;
@@ -108,7 +101,7 @@ body {
         .clear { 
             clear: both; 
         }
-/* Add animation */
+/* Add animation for content */
 #content {
     animation: slideIn 1s ease;
 }
@@ -142,7 +135,8 @@ body {
     max-width: 600px;
     margin: 20px auto;
     display: block;
-    animation: spin 10s linear infinite;
+    animation: spin 10s linear 1;
+    animation-fill-mode: forwards; /* Keep the final state of the animation */
 }
 
 @keyframes spin {
@@ -153,3 +147,16 @@ body {
         transform: rotate(360deg);
     }
 }
+
+/* Ensure focused elements are highlighted */
+a:focus, a:active {
+    outline: 2px solid #f00; /* Red outline for visibility */
+    outline-offset: 4px; /* Space between the outline and the element */
+}
+
+/* Optional: Additional styles for better visibility */
+a:hover, a:focus {
+    background-color: #ddd; /* Light grey background on hover and focus */
+    color: #000; /* Change text color for contrast */
+}
+
