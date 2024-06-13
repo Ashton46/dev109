@@ -163,4 +163,7 @@ button:focus {
     outline: 2px solid #f00; /* Red outline for visibility */
     outline-offset: 4px; /* Space between the outline and the button */
 }
+.video-container iframe {
+    border: none; /* Remove border */
+}
 
